@@ -45,7 +45,7 @@
     "unified": "^11.0.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
+    "@babel/core": "^7.28.6",
     "@laboperator-gmbh/config": "~0.2.1",
     "@laboperator-gmbh/eslint-config-node": "^0.2.1",
     "@types/jest": "^30.0.0",
