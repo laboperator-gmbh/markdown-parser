@@ -50,7 +50,7 @@
     "@laboperator-gmbh/eslint-config-node": "^0.2.1",
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.23",
-    "@types/node": "^25.0.8",
+    "@types/node": "^25.0.9",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
     "jest": "^30.2.0",
