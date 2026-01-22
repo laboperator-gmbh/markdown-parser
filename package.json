@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "hast-util-sanitize": "^5.0.2",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "mdast-util-from-markdown": "^2.0.2",
     "mdast-util-to-hast": "^13.2.1",
     "micromark-core-commonmark": "^2.0.3",
