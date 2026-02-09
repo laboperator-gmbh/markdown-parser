@@ -11,6 +11,10 @@ updates:
       - 'dependencies'
       - 'automerge'
       - "kodiak: merge.method = 'squash'"
+    ignore:
+      - dependency-name: eslint
+        versions:
+          - '>= 10'
     groups:
       babel:
         patterns:
