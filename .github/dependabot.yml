@@ -7,10 +7,6 @@ updates:
       time: '06:00'
       timezone: 'Europe/Berlin'
     rebase-strategy: disabled
-    labels:
-      - 'dependencies'
-      - 'automerge'
-      - "kodiak: merge.method = 'squash'"
     ignore:
       - dependency-name: eslint
         versions:
