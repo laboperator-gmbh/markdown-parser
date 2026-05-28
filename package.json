@@ -55,7 +55,7 @@
     "husky": "^9.1.7",
     "jest": "^30.4.2",
     "jest-junit": "^17.0.0",
-    "license-checker-rseidelsohn": "^4.4.2",
+    "license-checker-rseidelsohn": "^5.0.1",
     "lint-staged": "^17.0.5",
     "micromark-util-types": "^2.0.2",
     "prettier": "^3.8.3",
