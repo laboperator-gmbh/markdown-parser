@@ -5921,16 +5921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.7.4":
-  version: 3.8.4
-  resolution: "prettier@npm:3.8.4"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 10c0/b90a0cbe75b88ac0af9c13fe0f359bd19926fabccd88483227b21f71f0c1cc42da056fc1ac3a361e665577c568371d5ccfb2c62c31c8a1186f8d1bd531a063e9
-  languageName: node
-  linkType: hard
-
-"prettier@npm:^3.9.1":
+"prettier@npm:^3.7.4, prettier@npm:^3.9.1":
   version: 3.9.1
   resolution: "prettier@npm:3.9.1"
   bin:
