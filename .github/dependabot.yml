@@ -8,6 +8,12 @@ updates:
       timezone: 'Europe/Berlin'
     rebase-strategy: disabled
     ignore:
+      - dependency-name: '@babel/*'
+        versions:
+          - '>= 8'
+      - dependency-name: '@types/node'
+        versions:
+          - '>= 25'
       - dependency-name: eslint
         versions:
           - '>= 10'
