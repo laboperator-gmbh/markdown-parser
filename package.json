@@ -58,7 +58,7 @@
     "license-checker-rseidelsohn": "^4.4.2",
     "lint-staged": "^17.0.8",
     "micromark-util-types": "^2.0.2",
-    "prettier": "^3.9.4",
+    "prettier": "^3.9.5",
     "sort-package-json": "^4.0.0",
     "ts-jest": "^29.4.11",
     "ts-node": "^10.9.2",
