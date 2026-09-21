@@ -524,8 +524,8 @@ __metadata:
   linkType: hard
 
 "@eslint/eslintrc@npm:^3.3.6":
-  version: 3.3.6
-  resolution: "@eslint/eslintrc@npm:3.3.6"
+  version: 3.3.7
+  resolution: "@eslint/eslintrc@npm:3.3.7"
   dependencies:
     ajv: "npm:^6.14.0"
     debug: "npm:^4.3.2"
@@ -533,10 +533,10 @@ __metadata:
     globals: "npm:^14.0.0"
     ignore: "npm:^5.2.0"
     import-fresh: "npm:^3.2.1"
-    js-yaml: "npm:^4.3.0"
+    js-yaml: "npm:^4.3.2"
     minimatch: "npm:^3.1.5"
     strip-json-comments: "npm:^3.1.1"
-  checksum: 10c0/349697171ee116f501a2f483bf47cd38937a61880aeb1c23481a69afc95e95859430a0947acbe1f5507f223180bf57530ecf2989e73bcbea763a6dcffdf1d010
+  checksum: 10c0/010fca3403489ff109cfb5b9996142a2a4b4be28bbb233eda3c30ed004826aeab84d6914d0c5c4b1cd80add7051525adb7818268e0fb4775ddb6dbc620f00c72
   languageName: node
   linkType: hard
 
@@ -1070,7 +1070,7 @@ __metadata:
     "@laboperator-gmbh/eslint-config-node": "npm:^0.2.2"
     "@types/jest": "npm:^30.0.0"
     "@types/lodash": "npm:^4.17.25"
-    "@types/node": "npm:^24.13.4"
+    "@types/node": "npm:^24.13.5"
     eslint: "npm:^9.39.5"
     hast-util-sanitize: "npm:^5.0.2"
     husky: "npm:^9.1.7"
@@ -1086,7 +1086,7 @@ __metadata:
     micromark-util-character: "npm:^2.1.1"
     micromark-util-symbol: "npm:^2.0.1"
     micromark-util-types: "npm:^2.0.2"
-    prettier: "npm:^3.9.6"
+    prettier: "npm:^3.9.8"
     rehype-raw: "npm:^7.0.0"
     rehype-sanitize: "npm:^6.0.0"
     remark-gfm: "npm:^4.0.1"
@@ -1095,7 +1095,7 @@ __metadata:
     sort-package-json: "npm:^4.0.0"
     ts-jest: "npm:^29.4.12"
     ts-node: "npm:^10.9.2"
-    tsc-alias: "npm:^1.9.4"
+    tsc-alias: "npm:^1.9.5"
     typescript: "npm:^5.9.3"
     unified: "npm:^11.0.5"
   languageName: unknown
@@ -1524,12 +1524,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^24.13.4":
-  version: 24.13.4
-  resolution: "@types/node@npm:24.13.4"
+"@types/node@npm:*, @types/node@npm:^24.13.5":
+  version: 24.13.5
+  resolution: "@types/node@npm:24.13.5"
   dependencies:
     undici-types: "npm:~7.18.0"
-  checksum: 10c0/a12196e984cb09ead549651217b4b395961ea011f3a3791a9f78311d70b5f3be343c6fc935376553c06a34c14d963d4f637ad7829837b0c88cf441919f422893
+  checksum: 10c0/f6c7f564e7b16670bc72ce119f2aaba0f6d6ebb886c13d8cd3656a96e4825d91d826be3d0995fc776df4e19eceb4d3074e5e18d54ce1aebd3f6e0ba12b9108cb
   languageName: node
   linkType: hard
 
@@ -4003,12 +4003,12 @@ __metadata:
   linkType: hard
 
 "import-fresh@npm:^3.2.1":
-  version: 3.3.0
-  resolution: "import-fresh@npm:3.3.0"
+  version: 3.3.1
+  resolution: "import-fresh@npm:3.3.1"
   dependencies:
     parent-module: "npm:^1.0.0"
     resolve-from: "npm:^4.0.0"
-  checksum: 10c0/7f882953aa6b740d1f0e384d0547158bc86efbf2eea0f1483b8900a6f65c5a5123c2cf09b0d542cc419d0b98a759ecaeb394237e97ea427f2da221dc3cd80cc3
+  checksum: 10c0/bf8cc494872fef783249709385ae883b447e3eb09db0ebd15dcead7d9afe7224dad7bd7591c6b73b0b19b3c0f9640eb8ee884f01cfaf2887ab995b0b36a0cbec
   languageName: node
   linkType: hard
 
@@ -4880,14 +4880,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "js-yaml@npm:4.3.0"
+"js-yaml@npm:^4.3.2":
+  version: 4.3.2
+  resolution: "js-yaml@npm:4.3.2"
   dependencies:
     argparse: "npm:^2.0.1"
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: 10c0/058b30473d6915ca5b4feb11e2f7d4d97242f98d00a798ed48dd90b46b7c640398afe9128c5db22c5300f8c6528fe2a174b9a93f351a70ebc28c6203938d8bff
+  checksum: 10c0/dedd34c2e8fef1d504687f1bc94ed0ee1311a1f78770fa2800352c6d59c635ccf555009d74e9afe529ae62199da2b1ccef30e53dc84dcd8d2d8187c22574bc97
   languageName: node
   linkType: hard
 
@@ -6258,12 +6258,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.9.6":
-  version: 3.9.6
-  resolution: "prettier@npm:3.9.6"
+"prettier@npm:^3.9.6, prettier@npm:^3.9.8":
+  version: 3.9.8
+  resolution: "prettier@npm:3.9.8"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/9f7ddae234035868f3daab3dc34e6de7e54622185afb017378029f0c09a9c023248ccf6f34def0b17a0538e18c47aa1b3188bab72965d1bf735919baa0747e99
+  checksum: 10c0/257e5ef11ba5006d0b0712271705701c065c8003e07763f996ce185d39633902f3fe1f814839eed76f75c97b6d5376d6157bd9f44db18cacb1dbdcb263cc66ae
   languageName: node
   linkType: hard
 
@@ -7233,9 +7233,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsc-alias@npm:^1.9.4":
-  version: 1.9.4
-  resolution: "tsc-alias@npm:1.9.4"
+"tsc-alias@npm:^1.9.5":
+  version: 1.9.5
+  resolution: "tsc-alias@npm:1.9.5"
   dependencies:
     chokidar: "npm:^3.5.3"
     commander: "npm:^9.0.0"
@@ -7246,7 +7246,7 @@ __metadata:
     plimit-lit: "npm:^1.2.6"
   bin:
     tsc-alias: dist/bin/index.js
-  checksum: 10c0/80f0e8e69a5a9ace870c60a26461563b63397d17e594bb6ad5b2e0ea5f49f6b77810f21f1fe528a7891efd12f25f79aa999eea7b3e0f93a1ad16c6ab08b2b0a8
+  checksum: 10c0/dc6c5fa78605dc9ea226e01170f5c50bd8c0ab4137599195aa0c5b33f6c20864f0ba00c42c4a91846a713fb85f41c9d7fc572d5d61f38e90dea9edf420a27941
   languageName: node
   linkType: hard
 
