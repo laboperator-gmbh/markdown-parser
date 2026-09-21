@@ -8,8 +8,12 @@ import md2mdast from 'remark-parse';
 import mdast2hast from 'remark-rehype';
 import type { PluggableList } from 'unified';
 import type { Element, ElementContent, Properties } from 'hast';
+import type { Parents } from 'mdast';
 
 import extensions from './extensions.js';
+
+// `Handler` types its node as `any`; our extensions attach `props` to it.
+type ExtensionNode = Parents & { props: Properties };
 
 const element = (
   tagName: string,
@@ -23,12 +27,15 @@ const element = (
 });
 
 const handlers: Record<string, Handler> = {
-  grid: (state, node) => element('grid', node.props, state.all(node)),
-  gridcontainer: (state, node) =>
+  grid: (state, node: ExtensionNode) =>
+    element('grid', node.props, state.all(node)),
+  gridcontainer: (state, node: ExtensionNode) =>
     element('gridcontainer', node.props, state.all(node)),
 
-  banginterpolation: (_state, node) => element('banginterpolation', node.props),
-  interpolation: (_state, node) => element('interpolation', node.props),
+  banginterpolation: (_state, node: ExtensionNode) =>
+    element('banginterpolation', node.props),
+  interpolation: (_state, node: ExtensionNode) =>
+    element('interpolation', node.props),
 };
 
 const flavouredSchema = merge({}, defaultSchema, {

@@ -1,18 +1,18 @@
 {
   "extends": "@laboperator-gmbh/config/tsconfig",
   "compilerOptions": {
-    "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "outDir": "dist",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"] // relative, since TS 6 deprecated baseUrl
     },
     "module": "NodeNext", // support ESM
     "moduleResolution": "NodeNext", // support ESM
-    "rootDirs": ["src"],
-    "strictNullChecks": true
+    "rootDir": "src",
+    "strictNullChecks": true,
+    "types": ["node", "jest"] // TS 6 no longer auto-includes global-only @types
   },
   "include": ["src/**/*"]
 }
