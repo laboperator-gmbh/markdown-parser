@@ -46,8 +46,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
-    "@laboperator-gmbh/config": "~0.2.1",
-    "@laboperator-gmbh/eslint-config-node": "^0.2.1",
+    "@laboperator-gmbh/config": "~0.2.2",
+    "@laboperator-gmbh/eslint-config-node": "^0.2.2",
     "@types/jest": "^30.0.0",
     "@types/lodash": "^4.17.25",
     "@types/node": "^24.13.4",
