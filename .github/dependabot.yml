@@ -16,6 +16,12 @@ updates:
         versions:
           - '>= 10'
     groups:
+      minor-and-patch:
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
       babel:
         patterns:
           - '@babel/*'
