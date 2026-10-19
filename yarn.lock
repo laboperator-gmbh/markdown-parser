@@ -1454,16 +1454,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 24.19.1
-  resolution: "@types/node@npm:24.19.1"
-  dependencies:
-    undici-types: "npm:>=7.24.0 <7.24.7"
-  checksum: 10c0/789822cc68a0e0b632fd0a9fa53411e33541f03c18dc19942ed38161c369bf0b013917b4c6c760688bd2d09d940c827a601add118dfa04fe35a285535b2a8596
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^24.19.2":
+"@types/node@npm:*, @types/node@npm:^24.19.2":
   version: 24.19.2
   resolution: "@types/node@npm:24.19.2"
   dependencies:
@@ -6045,21 +6036,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.9.10":
+"prettier@npm:^3.9.10, prettier@npm:^3.9.6":
   version: 3.9.10
   resolution: "prettier@npm:3.9.10"
   bin:
     prettier: bin/prettier.cjs
   checksum: 10c0/0b3531593aa6fb36ac6baf629cb058bda472c59a6938774f931fe55283a07c62e6f56e621b043a82d8a3e21fc284c08c34f9e539fc70072635f79b7bae1a1067
-  languageName: node
-  linkType: hard
-
-"prettier@npm:^3.9.6":
-  version: 3.9.9
-  resolution: "prettier@npm:3.9.9"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 10c0/d50ea2537b2ff7dbd5088a214f4d936484e55c665cea2185b477a55b0770be55f3b156a71f63a9a639def6b334667bb327139dc85f2a1041c0a34752cdc74647
   languageName: node
   linkType: hard
 
@@ -6577,24 +6559,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "sort-package-json@npm:4.0.0"
-  dependencies:
-    detect-indent: "npm:^7.0.2"
-    detect-newline: "npm:^4.0.1"
-    git-hooks-list: "npm:^4.1.1"
-    is-plain-obj: "npm:^4.1.0"
-    semver: "npm:^7.7.3"
-    sort-object-keys: "npm:^2.0.1"
-    tinyglobby: "npm:^0.2.15"
-  bin:
-    sort-package-json: cli.js
-  checksum: 10c0/81173fc152581f0c64846a651b5fc838b3660e422519bda34336845e3111f0d9744e8e24fa0a73e281c1ec9090c793ab25ebd7fdce0bfa404ae3607a2192eb1f
-  languageName: node
-  linkType: hard
-
-"sort-package-json@npm:^4.1.0":
+"sort-package-json@npm:^4.0.0, sort-package-json@npm:^4.1.0":
   version: 4.1.0
   resolution: "sort-package-json@npm:4.1.0"
   dependencies:
