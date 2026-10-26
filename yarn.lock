@@ -999,7 +999,7 @@ __metadata:
     "@laboperator-gmbh/config": "npm:~0.2.2"
     "@laboperator-gmbh/eslint-config-node": "npm:^0.2.2"
     "@types/jest": "npm:^30.0.0"
-    "@types/lodash": "npm:^4.17.26"
+    "@types/lodash": "npm:^4.17.27"
     "@types/node": "npm:^24.19.2"
     eslint: "npm:^10.10.0"
     hast-util-sanitize: "npm:^5.0.2"
@@ -1025,7 +1025,7 @@ __metadata:
     sort-package-json: "npm:^4.1.0"
     ts-jest: "npm:^29.4.15"
     ts-node: "npm:^10.9.2"
-    tsc-alias: "npm:^1.9.7"
+    tsc-alias: "npm:^1.9.9"
     typescript: "npm:^6.0.3"
     unified: "npm:^11.0.5"
   languageName: unknown
@@ -1431,10 +1431,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.17.26":
-  version: 4.17.26
-  resolution: "@types/lodash@npm:4.17.26"
-  checksum: 10c0/7f8a95db94698f009e59c612deaba1ee98ac738156926f4c1c062853b9e46fe5fb3a7a34a15ad2f2c846f7c24b0e61e0109dfac2d9e4fa8eaa71330fd0862ea3
+"@types/lodash@npm:^4.17.27":
+  version: 4.17.27
+  resolution: "@types/lodash@npm:4.17.27"
+  checksum: 10c0/3769c022437664352a78234b8d9f6ba24693893552ef4192e507bbc7412dc621098afad0bc36f9d03855f629b143c01f3574afb2f818abcb447ebba066ad16bf
   languageName: node
   linkType: hard
 
@@ -7004,9 +7004,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsc-alias@npm:^1.9.7":
-  version: 1.9.7
-  resolution: "tsc-alias@npm:1.9.7"
+"tsc-alias@npm:^1.9.9":
+  version: 1.9.9
+  resolution: "tsc-alias@npm:1.9.9"
   dependencies:
     chokidar: "npm:^3.5.3"
     commander: "npm:^9.0.0"
@@ -7017,7 +7017,7 @@ __metadata:
     plimit-lit: "npm:^1.2.6"
   bin:
     tsc-alias: dist/bin/index.js
-  checksum: 10c0/df5af15db97e21d1152f3a47896264d68404fab196a2014d9746da3e35600d09c12affa13fad42d571f9cc0eba8e491549d5ad20aa87990a2caad606db418ce9
+  checksum: 10c0/525d256bdea8923cba6b403faf1c04ffd7d0e729eb0c5a2a4fa16ba58dc5770a10f78b315da22ab558769d08c9d119f879b4b1a8281fecff88b0b10d30d95e22
   languageName: node
   linkType: hard
 
