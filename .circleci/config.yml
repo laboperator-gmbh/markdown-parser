@@ -58,7 +58,7 @@ jobs:
   test:
     working_directory: ~/repo
     docker:
-      - image: cimg/node:lts-browsers
+      - image: cimg/node:24-browsers
     steps:
       - checkout
       - restore_yarn_cache
