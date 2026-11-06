@@ -49,7 +49,7 @@
     "@laboperator-gmbh/config": "~0.2.2",
     "@laboperator-gmbh/eslint-config-node": "^0.2.2",
     "@types/jest": "^30.0.0",
-    "@types/lodash": "^4.17.26",
+    "@types/lodash": "^4.17.27",
     "@types/node": "^24.19.2",
     "eslint": "^10.10.0",
     "husky": "^9.1.7",
@@ -62,7 +62,7 @@
     "sort-package-json": "^4.1.0",
     "ts-jest": "^29.4.15",
     "ts-node": "^10.9.2",
-    "tsc-alias": "^1.9.7",
+    "tsc-alias": "^1.9.9",
     "typescript": "^6.0.3"
   },
   "packageManager": "yarn@4.17.0"
